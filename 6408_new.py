@@ -8,7 +8,7 @@ Original file is located at
 """
 
 import pandas as pd
-df = pd.read_csv('colours (1).csv')
+df = pd.read_csv('colors.csv')
 df.head()
 
 df['Category'] = df['Category'].str.lower()
